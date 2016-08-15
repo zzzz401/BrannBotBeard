@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 	"time"
-  "math/rand"
+  	"math/rand"
 )
 
 var soundFiles = []string{"Brann.dca", "Death.dca", "OhBrother.dca", "Secrets.dca"}
@@ -173,3 +173,4 @@ func playSound(s *discordgo.Session, guildID, channelID string, bufferID int) (e
   	_ = vc.Disconnect()
   	return nil
 }
+
